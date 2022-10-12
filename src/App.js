@@ -5,7 +5,7 @@ import {Header , Footer , Container} from "./components/index"
  const App = () => {
   return(
     <>
-    <Header />
+    <Header/>
     <Container />
     <Footer />
     </>
