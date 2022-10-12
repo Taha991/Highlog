@@ -1,10 +1,11 @@
 import './Container.css';
+import Hero from '../Hero/Hero'
   
-const Container = () => {
+const Container = (props) => {
   return(
-    <>
-    <h1>Container</h1>
-    </>
+    <div>
+    {props.children}
+    </div>
   )
 }
 export default Container;
