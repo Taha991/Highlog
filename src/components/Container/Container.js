@@ -3,7 +3,7 @@ import Hero from '../Hero/Hero'
   
 const Container = (props) => {
   return(
-    <div>
+    <div className='container main-container'>
     {props.children}
     </div>
   )
