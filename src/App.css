@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 :root {
   --color-dark: #27292a;
   --color-darkest: #1f2122 ;
@@ -10,6 +11,7 @@
   --margin-primary: var(--dist-primary);
   --border-radius-primary: calc(var(--dist-primary) /2);
 
+  --font-family-primary: 'Poppins', sans-serif ;
 
   --font-weight-bold:900;
   --font-weight-normal: 400;
@@ -17,4 +19,5 @@
 
 body{
   background-color: var(--color-bg-body);
+  font-family: var(--font-family-primary);
 }
