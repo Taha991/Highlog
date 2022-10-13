@@ -3,6 +3,7 @@
   border-radius: var(--border-radius-primary);
   padding: var(--padding-primary);
   margin-top: var(--margin-primary);
+
   
 }
 .section-header h4{
@@ -10,10 +11,25 @@
   font-weight: 700;
 }
 
+.most-popular-items {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.popular-item{
+  flex: 1;
+}
+
+
+
+
+
 .card-wrapper{
   background-color: var(--color-dark);
   border-radius: calc(var(--border-radius-primary)/2);
   padding: calc(var(--padding-primary)/2);
+  margin: calc(var(--margin-primary)/5);
 }
 
 .popular-img{
