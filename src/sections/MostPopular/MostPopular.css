@@ -1,0 +1,32 @@
+.section-wrapper{
+  background: var(--color-darkest)  ;
+  border-radius: var(--border-radius-primary);
+  padding: var(--padding-primary);
+  margin-top: var(--margin-primary);
+  
+}
+.section-header h4{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-wrapper{
+  background-color: var(--color-dark);
+  border-radius: calc(var(--border-radius-primary)/2);
+  padding: calc(var(--padding-primary)/2);
+}
+
+.popular-img{
+  width: 100%;
+  border-radius: calc(var(--border-radius-primary)/4);
+  margin-bottom: calc(var(--margin-primary) /2);
+}
+.popular-content{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.popular-title{
+  font-size: 1rem;
+}
