@@ -25,7 +25,6 @@ const MostPopular = () => {
       <div className='most-popular-items'>
       {cards}
       </div>
-    
     </div>
     </>
   )

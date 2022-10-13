@@ -11,8 +11,8 @@
             <span>{props.info}</span>
           </h4>
           <ul>
-            <li><span>{props.rate}</span></li>
-            <li><span>{props.view}</span></li>
+            <li className="popular-info"><span>{props.rate}</span></li>
+            <li className="popular-info"><span>{props.view}</span></li>
           </ul>
         </div>
       </div>
