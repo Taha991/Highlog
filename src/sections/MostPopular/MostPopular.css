@@ -1,9 +1,4 @@
-.section-wrapper{
-  background: var(--color-darkest)  ;
-  border-radius: var(--border-radius-primary);
-  padding: var(--padding-primary);
-  margin-top: var(--margin-primary);
-}
+
 
 
 .most-popular-items {

@@ -1,6 +1,6 @@
 import "./MostPopular.css";
-import {Card , SectionHeader} from "../../components/index";
-import data from "../../data";
+import {Card , SectionHeader , SectionWrapper} from "../../components/index";
+import data from "../../Data/data";
 
 
 const MostPopular = () => {
@@ -18,13 +18,13 @@ const MostPopular = () => {
   });
   return (
     <>
-      <div className="section-wrapper">
+      <SectionWrapper>
         <SectionHeader>Most Popular &#8594;{" "}
             <span style={{ color: "var(--color-primary)" }}>Right Now</span></SectionHeader>
         <div className="most-popular-items">
           {cards}
         </div>
-      </div>
+      </SectionWrapper>
 
     </>
   );
