@@ -1,3 +1,6 @@
+ import {FaStar} from 'react-icons/fa';
+ import {FaDownload} from 'react-icons/fa';
+ import './Card.css' ;
  const Card = (props) => {
 
   return(
@@ -11,8 +14,8 @@
             <span>{props.info}</span>
           </h4>
           <ul>
-            <li className="popular-info"><span>{props.rate}</span></li>
-            <li className="popular-info"><span>{props.view}</span></li>
+            <li className="popular-info"><FaStar/><span>{props.rate}</span></li>
+            <li className="popular-info"><FaDownload/><span>{props.view}</span></li>
           </ul>
         </div>
       </div>

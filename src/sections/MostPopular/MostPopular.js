@@ -1,5 +1,5 @@
 import './MostPopular.css';
-import Card from './Card';
+import Card from '../Card/Card';
 import data from '../../data';
 
 const MostPopular = () => {

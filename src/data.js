@@ -1,10 +1,13 @@
-import Fortnite from './assets/images/game-01.jpg'
+import Fortnite from './assets/images/game-01.jpg';
+import Pubg from './assets/images/game-02.jpg';
+import LOL from './assets/images/game-03.jpg';
+
 
 
 export default [
   {
     id:1 , 
-    coverImg: Fortnite ,
+    coverImg: Pubg ,
     title:"Fortnite",
     info : "Sandbox" ,
     rate: "3.8" , 
@@ -12,9 +15,9 @@ export default [
   },
   {
     id:2 , 
-    coverImg: Fortnite ,
+    coverImg: LOL ,
     title:"Pubg",
-    info : "Stream-X" ,
+    info : "StreamX" ,
     rate: "4.8" , 
     view: "1.1M"
   },
@@ -22,13 +25,13 @@ export default [
     id:3 , 
     coverImg: Fortnite ,
     title:"Dota2",
-    info : "Legedax" ,
+    info : "Legedary" ,
     rate: "2.7" , 
     view: "5.3M"
   },
   {
     id:4 , 
-    coverImg: Fortnite ,
+    coverImg: Pubg ,
     title:"Cs-Go",
     info : "Battle S" ,
     rate: "3.9" , 
@@ -36,31 +39,31 @@ export default [
   },
   {
     id:5 , 
-    coverImg: Fortnite ,
-    title:"Cs-Go",
-    info : "MinCraft" ,
+    coverImg: LOL ,
+    title:"MinCraft",
+    info : "Epic" ,
     rate: "1.8" , 
-    view: "29.3M"
+    view: "29M"
   },
   {
     id:6 , 
     coverImg: Fortnite ,
-    title:"Eagles Fly",
+    title:"Eagles ",
     info : "Matrix" ,
     rate: "2.6" , 
     view: "10.1M"
   },
   {
     id:7 , 
-    coverImg: Fortnite ,
+    coverImg: LOL ,
     title:"Apex",
-    info : "Stor" ,
+    info : "Stor-S" ,
     rate: "4.2" , 
     view: "17.3M"
   },
   {
     id:8 , 
-    coverImg: Fortnite ,
+    coverImg: Pubg,
     title:"Hunter",
     info : "Clash" ,
     rate: "2.2" , 
