@@ -1,13 +1,15 @@
-import Fortnite from './assets/images/game-01.jpg';
-import Pubg from './assets/images/game-02.jpg';
+import Random from './assets/images/game-01.jpg';
+import Apex from './assets/images/game-02.jpg';
 import LOL from './assets/images/game-03.jpg';
+import Pubg from './assets/images/details-01.jpg';
+import Fortnite from './assets/images/feature-left.jpg';
 
 
 
 export default [
   {
     id:1 , 
-    coverImg: Pubg ,
+    coverImg: Fortnite ,
     title:"Fortnite",
     info : "Sandbox" ,
     rate: "3.8" , 
@@ -15,7 +17,7 @@ export default [
   },
   {
     id:2 , 
-    coverImg: LOL ,
+    coverImg: Pubg ,
     title:"Pubg",
     info : "StreamX" ,
     rate: "4.8" , 
@@ -23,7 +25,7 @@ export default [
   },
   {
     id:3 , 
-    coverImg: Fortnite ,
+    coverImg: Random ,
     title:"Dota2",
     info : "Legedary" ,
     rate: "2.7" , 
@@ -31,7 +33,7 @@ export default [
   },
   {
     id:4 , 
-    coverImg: Pubg ,
+    coverImg: Apex ,
     title:"Cs-Go",
     info : "Battle S" ,
     rate: "3.9" , 
@@ -47,7 +49,7 @@ export default [
   },
   {
     id:6 , 
-    coverImg: Fortnite ,
+    coverImg: Random ,
     title:"Eagles ",
     info : "Matrix" ,
     rate: "2.6" , 

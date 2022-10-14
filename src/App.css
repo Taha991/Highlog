@@ -4,6 +4,7 @@
   --color-darkest: #1f2122 ;
   --color-light: #fff ;
   --color-primary: #ec6090;
+  --color-icons: yellow;
   --color-bg-body:var(--color-darkest) ;
   
   --dist-primary: 50px ; 

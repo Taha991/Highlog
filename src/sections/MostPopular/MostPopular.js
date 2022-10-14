@@ -20,7 +20,7 @@ const MostPopular = () => {
     <>
     <div className="section-wrapper">
       <div className="section-header">
-        <h4>Most Popular</h4>
+        <h4>Most Popular &#8594; <span style={{"color" : "var(--color-primary)"}}>Right Now</span></h4>
       </div>
       <div className='most-popular-items'>
       {cards}
