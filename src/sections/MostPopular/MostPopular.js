@@ -1,12 +1,12 @@
 import "./MostPopular.css";
-import {Card , SectionHeader , SectionWrapper} from "../../components/index";
-import data from "../../Data/data";
+import {PopularCard , SectionHeader , SectionWrapper} from "../../components/index";
+import data from "../../Data/PopularData";
 
 
 const MostPopular = () => {
   const cards = data.map((item) => {
     return (
-      <Card
+      <PopularCard
         key={item.id}
         coverImg={item.coverImg}
         title={item.title}

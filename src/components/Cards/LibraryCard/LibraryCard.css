@@ -1,0 +1,21 @@
+.library-card{
+  flex: 1 1 100%;
+}
+
+.library-card ul{
+  display: flex;
+  justify-content: space-between;
+ 
+  padding: calc(var(--padding-primary)/2) 0;
+}
+
+.library-card h4{
+  font-size: 1rem;
+}
+.library-card img {
+  border-radius: 25%;
+}
+
+.library-card span{
+  color: var(--color-gray);
+}

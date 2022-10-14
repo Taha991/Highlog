@@ -1,8 +1,8 @@
-import Random from './assets/images/game-01.jpg';
-import Apex from './assets/images/game-02.jpg';
-import LOL from './assets/images/game-03.jpg';
-import Pubg from './assets/images/details-01.jpg';
-import Fortnite from './assets/images/feature-left.jpg';
+import Random from '../assets/images/game-01.jpg';
+import Apex from '../assets/images/game-02.jpg';
+import LOL from '../assets/images/game-03.jpg';
+import Pubg from '../assets/images/details-01.jpg';
+import Fortnite from '../assets/images/feature-left.jpg';
 
 
 

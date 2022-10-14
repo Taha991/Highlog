@@ -4,7 +4,9 @@
   }
 
 
-
+.popular-title span{
+  color: var(--color-gray);
+}
 .card-wrapper{
   background-color: var(--color-dark);
   border-radius: calc(var(--border-radius-primary)/2);
@@ -24,6 +26,7 @@
   align-items: center;
   align-content: center;
 }
+
 
 
 
