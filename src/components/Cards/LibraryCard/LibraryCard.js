@@ -1,4 +1,5 @@
 import  './LibraryCard.css'
+import {SecondaryButton} from "../../index"
 
 function LibraryCard(props) {
   return (
@@ -9,9 +10,7 @@ function LibraryCard(props) {
         <li><h4>Data Added</h4><span>{props.date_added}</span></li>
         <li><h4>Hours Played</h4><span>{props.hours}</span></li>
         <li><h4>Currently</h4><span>{props.up}</span></li>
-        <div className='main-button'>
-          <a href='/#'>Download</a> 
-        </div>
+        <SecondaryButton>Download</SecondaryButton>
       </ul>
     </div>
   )

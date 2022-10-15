@@ -5,3 +5,5 @@ export { default as PopularCard } from "./Cards/PopularCard/Card";
 export { default as LibraryCard } from "./Cards/LibraryCard/LibraryCard";
 export { default as SectionHeader } from "./SectionHeader/SectionHeader";
 export { default as SectionWrapper } from "./SectionWrapper/SectionWrapper";
+export {default as PrimaryButton} from "./Buttons/Buttons"
+export {SecondaryButtons as SecondaryButton} from "./Buttons/Buttons"
