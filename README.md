@@ -3,8 +3,7 @@
 ## Overview
 
 This project consists of a JavaScript backend, a React frontend, and responsive CSS for all devices. It features a collection of games with their details, including cover images, titles, information, ratings, and views.
-
-(src/assests/images/1.jpg)
+![cover](src/assets/images/1.jpg)
 ![Pubg](src/assets/images/2.jpg)
 
 
