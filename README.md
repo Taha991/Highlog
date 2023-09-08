@@ -4,11 +4,9 @@
 
 This project consists of a JavaScript backend, a React frontend, and responsive CSS for all devices. It features a collection of games with their details, including cover images, titles, information, ratings, and views.
 
-![Fortnite](src/assets/images/game-01.jpg)
-![Pubg](src/assets/images/game-02.jpg)
-![Dota2](src/assets/images/game-03.jpg)
-![Cs-Go](src/assets/images/details-01.jpg)
-![MinCraft](src/assets/images/feature-left.jpg)
+![Fortnite](src/assests/images/1.jpg)
+![Pubg](src/assets/images/2.jpg)
+
 
 ## Games
 
