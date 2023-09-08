@@ -1,10 +1,10 @@
-# Project Name
+# Highlog 
 
 ## Overview
 
 This project consists of a JavaScript backend, a React frontend, and responsive CSS for all devices. It features a collection of games with their details, including cover images, titles, information, ratings, and views.
 
-![Fortnite](src/assests/images/1.jpg)
+(src/assests/images/1.jpg)
 ![Pubg](src/assets/images/2.jpg)
 
 
@@ -37,27 +37,9 @@ Here are some of the featured games in this project:
    - Rating: 1.8
    - Views: 29M
 
-6. **Eagles**
-   - Category: Matrix
-   - Rating: 2.6
-   - Views: 10.1M
 
-7. **Apex**
-   - Category: Stor-S
-   - Rating: 4.2
-   - Views: 17.3M
-
-8. **Hunter**
-   - Category: Clash
-   - Rating: 2.2
-   - Views: 1.3M
 
 Feel free to explore these games in this project!
-
-## Screenshots
-
-[(src/assests/images/1.jpg)]
-[(src/assests/images/2.jpg)]
 
 
 
